@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <!-- Вказуємо кодування символів, щоб українські літери відображалися правильно -->
+    <meta charset="UTF-8">
+
+    <!-- Налаштовуємо відображення сайту на телефонах та інших пристроях -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Назва сайту, яка відображається у вкладці браузера -->
+    <title>LinkHub: Моє ім'я</title>
+
+    <!-- Підключаємо CSS-файл, у якому описані стилі сайту -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Основний контейнер картки користувача -->
+    <div class="card">
+
+        <!-- Зображення користувача: src — адреса картинки, alt — опис зображення -->
+        <img class="avatar" src="WOT_PC_Battle_Pass_screenshots_Object_705A_3Dstyle_RU_04.jpg" alt="Мій аватар">
+
+        <!-- Заголовок з іменем користувача -->
+        <h2 class="name">Ілля Атаман</h2>
+
+        <!-- Короткий опис або статус користувача -->
+        <p class="status"> Мій олюблений танк об.705 A </p>
+
+        <!-- Контейнер для посилань на соціальні мережі -->
+        <div class="links">
+
+            <!-- Посилання на Instagram; target="_blank" відкриває його в новій вкладці -->
+            <a class="btn" href="https://www.instagram.com/" target="_blank">Instagram</a>
+
+            <!-- Посилання на TikTok -->
+            <a class="btn" href="https://www.tiktok.com/" target="_blank">TikTok</a>
+
+            <!-- Посилання на GitHub -->
+            <a class="btn" href="https://github.com/" target="_blank">GitHub</a>
+
+        </div>
+
+        <!-- Кнопка для зміни теми сайту; id потрібен для пошуку кнопки в JavaScript -->
+        <button id="themeBtn">🌙 Змінити тему</button>
+
+        <!-- Кнопка для поширення посилання на сайт -->
+        <button id="shareBtn">🔗 Поділитися</button>
+
+    </div>
+
+    <!-- Підключаємо JavaScript-файл, який додає кнопкам функціональність -->
+    <script src="script.js"></script>
+</body>
+</html>
